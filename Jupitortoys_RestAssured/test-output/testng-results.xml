@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T22:49:43 AEDT" name="Default suite" finished-at="2022-10-06T22:49:49 AEDT" duration-ms="6652">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T22:49:43 AEDT" name="Default test" finished-at="2022-10-06T22:49:49 AEDT" duration-ms="6652">
+      <class name="api.PostApiForNewToy">
+        <test-method signature="getAccessToken()[pri:0, instance:api.PostApiForNewToy@10e31a9a]" started-at="2022-10-06T22:49:43 AEDT" name="getAccessToken" finished-at="2022-10-06T22:49:48 AEDT" duration-ms="4867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccessToken -->
+        <test-method signature="createNewToy()[pri:2, instance:api.PostApiForNewToy@10e31a9a]" started-at="2022-10-06T22:49:48 AEDT" name="createNewToy" finished-at="2022-10-06T22:49:49 AEDT" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewToy -->
+        <test-method signature="getNewToyDetails()[pri:3, instance:api.PostApiForNewToy@10e31a9a]" started-at="2022-10-06T22:49:49 AEDT" name="getNewToyDetails" finished-at="2022-10-06T22:49:49 AEDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewToyDetails -->
+        <test-method signature="patchingToyPrice()[pri:4, instance:api.PostApiForNewToy@10e31a9a]" started-at="2022-10-06T22:49:49 AEDT" name="patchingToyPrice" finished-at="2022-10-06T22:49:49 AEDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchingToyPrice -->
+        <test-method signature="deleteCreatedToy()[pri:5, instance:api.PostApiForNewToy@10e31a9a]" started-at="2022-10-06T22:49:49 AEDT" name="deleteCreatedToy" finished-at="2022-10-06T22:49:49 AEDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCreatedToy -->
+      </class> <!-- api.PostApiForNewToy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
